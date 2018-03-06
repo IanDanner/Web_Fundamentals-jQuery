@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    margin: 15px auto;
+    width: 970px;
+    height: 800px;
+}
+
+th{
+    padding: 0px 20px 10px;
+}
+
+td{
+    padding: 0px 20px 10px;
+}
+
+h1{
+    border-bottom: 2px solid black;
+    margin: 20px 0px;
+}
+
+label {
+    display: block;
+    margin: 10px 0px;
+}

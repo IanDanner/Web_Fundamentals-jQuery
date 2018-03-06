@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    margin: 15px auto;
+    width: 970px;
+    height: 600px;
+    background-color: grey;
+    text-align: left;
+}
+
+.img-box{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    vertical-align: top;
+}
+
+button{
+    display: block;
+    padding: 10px;
+    background-color: red;
+    margin: 20px;
+}

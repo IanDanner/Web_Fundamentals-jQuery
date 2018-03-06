@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#map{
+    margin: 20px auto;
+    width: 500px;
+}
+
+#score{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+.row{
+    line-height: 0;
+}
+
+.empty, .wall, .kirby, .star, .color-star, .enemie{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.empty{
+    background-color: black;
+}
+
+.wall{
+    background-color: rgb(236, 43, 75);
+}
+
+.kirby{
+    background-color: black;
+    background-image: url('kirby.gif');
+    background-size: 90px;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.star, .color-star, .enemie{
+    background-color: black;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.star{
+    background-image: url('star.gif');
+}
+
+.color-star{
+    background-image: url('color-star.gif');
+    background-size: 30px;
+}
+
+.enemie{
+    background-image: url('enemie.gif');
+    background-size: 60px;
+}
